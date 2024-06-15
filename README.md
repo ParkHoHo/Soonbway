@@ -1,6 +1,8 @@
 # Soonbway
-
 > 신창역을 기준으로 들어오고 나가는 전철의 위치를 파악하는 앱.
+
+## Description
+서울지하철 1호선의 경우 연착이 자주 됩니다. 1~2분 차이로 지각이 결정되는 지하철이기 때문에 연착은 크게 다가올 수 밖에 없습니다. 따라서 <b>현재 지하철의 위치를 보여주는 서비스</b>를 제공하고자 합니다. 
 
 ## 기능
 - 신창역에서 출발하는 전철의 도착유무 확인 가능
@@ -10,7 +12,13 @@
 - 원하는 데이터 빠르게 보기(업데이트 예정)
 - 도착까지 남은 시간 보여주기(업데이트 예정)
 
+## Environment
+- iOS 17.5
+- Xcode 15.4(Swift 5.10+)
+
+## Swift Package
+- [Alamofire](https://github.com/Alamofire/Alamofire.git)
 
 ## UI 
-
 <img src="/images/도착.png" width=250> | <img src="/images/출발.png" width=250>
+
