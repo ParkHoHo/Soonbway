@@ -14,6 +14,29 @@
 		DDDD0AFB2C1D6C860006D909 /* SoonbwayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDD0AFA2C1D6C860006D909 /* SoonbwayTests.swift */; };
 		DDDD0B052C1D6C860006D909 /* SoonbwayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDD0B042C1D6C860006D909 /* SoonbwayUITests.swift */; };
 		DDDD0B072C1D6C860006D909 /* SoonbwayUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDD0B062C1D6C860006D909 /* SoonbwayUITestsLaunchTests.swift */; };
+		DDDD0B182C1D6CC80006D909 /* SubwayData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDD0B172C1D6CC80006D909 /* SubwayData.swift */; };
+		DDDD0B1A2C1D6CE10006D909 /* AnimatedSideBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDD0B192C1D6CE10006D909 /* AnimatedSideBar.swift */; };
+		DDDD0B1C2C1D6CEC0006D909 /* HackerTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDD0B1B2C1D6CEC0006D909 /* HackerTextView.swift */; };
+		DDDD0B1E2C1D6CF70006D909 /* BottomSheetHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDD0B1D2C1D6CF70006D909 /* BottomSheetHelpers.swift */; };
+		DDDD0B202C1D6D010006D909 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDD0B1F2C1D6D010006D909 /* Constants.swift */; };
+		DDDD0B222C1D6D0C0006D909 /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDD0B212C1D6D0C0006D909 /* View+Extensions.swift */; };
+		DDDD0B242C1D6D170006D909 /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDD0B232C1D6D170006D909 /* Date+Extensions.swift */; };
+		DDDD0B262C1D6D210006D909 /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDD0B252C1D6D210006D909 /* Color+Extensions.swift */; };
+		DDDD0B282C1D6D830006D909 /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDD0B272C1D6D830006D909 /* Tab.swift */; };
+		DDDD0B2A2C1D6D8A0006D909 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDD0B292C1D6D8A0006D909 /* Category.swift */; };
+		DDDD0B2C2C1D6D910006D909 /* TinitColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDD0B2B2C1D6D910006D909 /* TinitColor.swift */; };
+		DDDD0B2E2C1D6D980006D909 /* SubwayModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDD0B2D2C1D6D980006D909 /* SubwayModel.swift */; };
+		DDDD0B302C1D6DC90006D909 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDD0B2F2C1D6DC90006D909 /* CardView.swift */; };
+		DDDD0B322C1D6DE20006D909 /* DateFilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDD0B312C1D6DE20006D909 /* DateFilterView.swift */; };
+		DDDD0B342C1D6DFB0006D909 /* SubwayCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDD0B332C1D6DFB0006D909 /* SubwayCardView.swift */; };
+		DDDD0B362C1D6E050006D909 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDD0B352C1D6E050006D909 /* MapView.swift */; };
+		DDDD0B382C1D6E0E0006D909 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDD0B372C1D6E0E0006D909 /* HomeView.swift */; };
+		DDDD0B3A2C1D6E180006D909 /* IntroScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDD0B392C1D6E180006D909 /* IntroScreen.swift */; };
+		DDDD0B3C2C1D6E220006D909 /* Home+TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDD0B3B2C1D6E220006D909 /* Home+TabView.swift */; };
+		DDDD0B3E2C1D6E2C0006D909 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDD0B3D2C1D6E2C0006D909 /* SettingView.swift */; };
+		DDDD0B402C1D6E370006D909 /* Home+SideBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDD0B3F2C1D6E370006D909 /* Home+SideBarView.swift */; };
+		DDDD0B422C1D6EA60006D909 /* SubwayViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDD0B412C1D6EA60006D909 /* SubwayViewModel.swift */; };
+		DDDD0B452C1D6ED40006D909 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = DDDD0B442C1D6ED40006D909 /* Alamofire */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +67,29 @@
 		DDDD0B002C1D6C860006D909 /* SoonbwayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoonbwayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDDD0B042C1D6C860006D909 /* SoonbwayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoonbwayUITests.swift; sourceTree = "<group>"; };
 		DDDD0B062C1D6C860006D909 /* SoonbwayUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoonbwayUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DDDD0B172C1D6CC80006D909 /* SubwayData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubwayData.swift; sourceTree = "<group>"; };
+		DDDD0B192C1D6CE10006D909 /* AnimatedSideBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedSideBar.swift; sourceTree = "<group>"; };
+		DDDD0B1B2C1D6CEC0006D909 /* HackerTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackerTextView.swift; sourceTree = "<group>"; };
+		DDDD0B1D2C1D6CF70006D909 /* BottomSheetHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheetHelpers.swift; sourceTree = "<group>"; };
+		DDDD0B1F2C1D6D010006D909 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		DDDD0B212C1D6D0C0006D909 /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
+		DDDD0B232C1D6D170006D909 /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
+		DDDD0B252C1D6D210006D909 /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
+		DDDD0B272C1D6D830006D909 /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
+		DDDD0B292C1D6D8A0006D909 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		DDDD0B2B2C1D6D910006D909 /* TinitColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinitColor.swift; sourceTree = "<group>"; };
+		DDDD0B2D2C1D6D980006D909 /* SubwayModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubwayModel.swift; sourceTree = "<group>"; };
+		DDDD0B2F2C1D6DC90006D909 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		DDDD0B312C1D6DE20006D909 /* DateFilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFilterView.swift; sourceTree = "<group>"; };
+		DDDD0B332C1D6DFB0006D909 /* SubwayCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubwayCardView.swift; sourceTree = "<group>"; };
+		DDDD0B352C1D6E050006D909 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		DDDD0B372C1D6E0E0006D909 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		DDDD0B392C1D6E180006D909 /* IntroScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroScreen.swift; sourceTree = "<group>"; };
+		DDDD0B3B2C1D6E220006D909 /* Home+TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Home+TabView.swift"; sourceTree = "<group>"; };
+		DDDD0B3D2C1D6E2C0006D909 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		DDDD0B3F2C1D6E370006D909 /* Home+SideBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Home+SideBarView.swift"; sourceTree = "<group>"; };
+		DDDD0B412C1D6EA60006D909 /* SubwayViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubwayViewModel.swift; sourceTree = "<group>"; };
+		DDDD0B462C1D6EF10006D909 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +97,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDDD0B452C1D6ED40006D909 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,6 +141,11 @@
 		DDDD0AE82C1D6C840006D909 /* Soonbway */ = {
 			isa = PBXGroup;
 			children = (
+				DDDD0B462C1D6EF10006D909 /* Info.plist */,
+				DDDD0B162C1D6CB10006D909 /* Helpers */,
+				DDDD0B142C1D6CA50006D909 /* Model */,
+				DDDD0B132C1D6C9E0006D909 /* View */,
+				DDDD0B152C1D6CAA0006D909 /* ViewModel */,
 				DDDD0AE92C1D6C840006D909 /* SoonbwayApp.swift */,
 				DDDD0AEB2C1D6C840006D909 /* ContentView.swift */,
 				DDDD0AED2C1D6C860006D909 /* Assets.xcassets */,
@@ -127,6 +179,56 @@
 			path = SoonbwayUITests;
 			sourceTree = "<group>";
 		};
+		DDDD0B132C1D6C9E0006D909 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DDDD0B2F2C1D6DC90006D909 /* CardView.swift */,
+				DDDD0B312C1D6DE20006D909 /* DateFilterView.swift */,
+				DDDD0B332C1D6DFB0006D909 /* SubwayCardView.swift */,
+				DDDD0B352C1D6E050006D909 /* MapView.swift */,
+				DDDD0B372C1D6E0E0006D909 /* HomeView.swift */,
+				DDDD0B392C1D6E180006D909 /* IntroScreen.swift */,
+				DDDD0B3B2C1D6E220006D909 /* Home+TabView.swift */,
+				DDDD0B3D2C1D6E2C0006D909 /* SettingView.swift */,
+				DDDD0B3F2C1D6E370006D909 /* Home+SideBarView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DDDD0B142C1D6CA50006D909 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DDDD0B272C1D6D830006D909 /* Tab.swift */,
+				DDDD0B292C1D6D8A0006D909 /* Category.swift */,
+				DDDD0B2B2C1D6D910006D909 /* TinitColor.swift */,
+				DDDD0B2D2C1D6D980006D909 /* SubwayModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DDDD0B152C1D6CAA0006D909 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				DDDD0B412C1D6EA60006D909 /* SubwayViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		DDDD0B162C1D6CB10006D909 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				DDDD0B172C1D6CC80006D909 /* SubwayData.swift */,
+				DDDD0B192C1D6CE10006D909 /* AnimatedSideBar.swift */,
+				DDDD0B1B2C1D6CEC0006D909 /* HackerTextView.swift */,
+				DDDD0B1D2C1D6CF70006D909 /* BottomSheetHelpers.swift */,
+				DDDD0B1F2C1D6D010006D909 /* Constants.swift */,
+				DDDD0B212C1D6D0C0006D909 /* View+Extensions.swift */,
+				DDDD0B232C1D6D170006D909 /* Date+Extensions.swift */,
+				DDDD0B252C1D6D210006D909 /* Color+Extensions.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +245,9 @@
 			dependencies = (
 			);
 			name = Soonbway;
+			packageProductDependencies = (
+				DDDD0B442C1D6ED40006D909 /* Alamofire */,
+			);
 			productName = Soonbway;
 			productReference = DDDD0AE62C1D6C840006D909 /* Soonbway.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +320,9 @@
 				Base,
 			);
 			mainGroup = DDDD0ADD2C1D6C840006D909;
+			packageReferences = (
+				DDDD0B432C1D6ED40006D909 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = DDDD0AE72C1D6C840006D909 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -257,8 +365,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDDD0B3A2C1D6E180006D909 /* IntroScreen.swift in Sources */,
+				DDDD0B1E2C1D6CF70006D909 /* BottomSheetHelpers.swift in Sources */,
 				DDDD0AEC2C1D6C840006D909 /* ContentView.swift in Sources */,
+				DDDD0B3C2C1D6E220006D909 /* Home+TabView.swift in Sources */,
+				DDDD0B2C2C1D6D910006D909 /* TinitColor.swift in Sources */,
+				DDDD0B242C1D6D170006D909 /* Date+Extensions.swift in Sources */,
+				DDDD0B302C1D6DC90006D909 /* CardView.swift in Sources */,
+				DDDD0B1A2C1D6CE10006D909 /* AnimatedSideBar.swift in Sources */,
+				DDDD0B1C2C1D6CEC0006D909 /* HackerTextView.swift in Sources */,
+				DDDD0B362C1D6E050006D909 /* MapView.swift in Sources */,
+				DDDD0B282C1D6D830006D909 /* Tab.swift in Sources */,
+				DDDD0B262C1D6D210006D909 /* Color+Extensions.swift in Sources */,
+				DDDD0B202C1D6D010006D909 /* Constants.swift in Sources */,
 				DDDD0AEA2C1D6C840006D909 /* SoonbwayApp.swift in Sources */,
+				DDDD0B2E2C1D6D980006D909 /* SubwayModel.swift in Sources */,
+				DDDD0B422C1D6EA60006D909 /* SubwayViewModel.swift in Sources */,
+				DDDD0B222C1D6D0C0006D909 /* View+Extensions.swift in Sources */,
+				DDDD0B182C1D6CC80006D909 /* SubwayData.swift in Sources */,
+				DDDD0B322C1D6DE20006D909 /* DateFilterView.swift in Sources */,
+				DDDD0B2A2C1D6D8A0006D909 /* Category.swift in Sources */,
+				DDDD0B342C1D6DFB0006D909 /* SubwayCardView.swift in Sources */,
+				DDDD0B382C1D6E0E0006D909 /* HomeView.swift in Sources */,
+				DDDD0B402C1D6E370006D909 /* Home+SideBarView.swift in Sources */,
+				DDDD0B3E2C1D6E2C0006D909 /* SettingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,6 +555,7 @@
 				DEVELOPMENT_TEAM = ZFX2T346K6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Soonbway/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -454,6 +585,7 @@
 				DEVELOPMENT_TEAM = ZFX2T346K6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Soonbway/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -588,6 +720,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DDDD0B432C1D6ED40006D909 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.9.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DDDD0B442C1D6ED40006D909 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DDDD0B432C1D6ED40006D909 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = DDDD0ADE2C1D6C840006D909 /* Project object */;
 }
