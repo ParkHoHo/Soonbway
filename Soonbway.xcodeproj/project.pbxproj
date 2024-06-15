@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DDDD0AEA2C1D6C840006D909 /* SoonbwayApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDD0AE92C1D6C840006D909 /* SoonbwayApp.swift */; };
+		DDDD0AEC2C1D6C840006D909 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDD0AEB2C1D6C840006D909 /* ContentView.swift */; };
+		DDDD0AEE2C1D6C860006D909 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDDD0AED2C1D6C860006D909 /* Assets.xcassets */; };
+		DDDD0AF12C1D6C860006D909 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDDD0AF02C1D6C860006D909 /* Preview Assets.xcassets */; };
+		DDDD0AFB2C1D6C860006D909 /* SoonbwayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDD0AFA2C1D6C860006D909 /* SoonbwayTests.swift */; };
+		DDDD0B052C1D6C860006D909 /* SoonbwayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDD0B042C1D6C860006D909 /* SoonbwayUITests.swift */; };
+		DDDD0B072C1D6C860006D909 /* SoonbwayUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDD0B062C1D6C860006D909 /* SoonbwayUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DDDD0AF72C1D6C860006D909 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDDD0ADE2C1D6C840006D909 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDDD0AE52C1D6C840006D909;
+			remoteInfo = Soonbway;
+		};
+		DDDD0B012C1D6C860006D909 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDDD0ADE2C1D6C840006D909 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDDD0AE52C1D6C840006D909;
+			remoteInfo = Soonbway;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DDDD0AE62C1D6C840006D909 /* Soonbway.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Soonbway.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDDD0AE92C1D6C840006D909 /* SoonbwayApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoonbwayApp.swift; sourceTree = "<group>"; };
+		DDDD0AEB2C1D6C840006D909 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DDDD0AED2C1D6C860006D909 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DDDD0AF02C1D6C860006D909 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DDDD0AF62C1D6C860006D909 /* SoonbwayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoonbwayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDDD0AFA2C1D6C860006D909 /* SoonbwayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoonbwayTests.swift; sourceTree = "<group>"; };
+		DDDD0B002C1D6C860006D909 /* SoonbwayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoonbwayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDDD0B042C1D6C860006D909 /* SoonbwayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoonbwayUITests.swift; sourceTree = "<group>"; };
+		DDDD0B062C1D6C860006D909 /* SoonbwayUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoonbwayUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDDD0AE32C1D6C840006D909 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDDD0AF32C1D6C860006D909 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDDD0AFD2C1D6C860006D909 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DDDD0ADD2C1D6C840006D909 = {
+			isa = PBXGroup;
+			children = (
+				DDDD0AE82C1D6C840006D909 /* Soonbway */,
+				DDDD0AF92C1D6C860006D909 /* SoonbwayTests */,
+				DDDD0B032C1D6C860006D909 /* SoonbwayUITests */,
+				DDDD0AE72C1D6C840006D909 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDDD0AE72C1D6C840006D909 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDDD0AE62C1D6C840006D909 /* Soonbway.app */,
+				DDDD0AF62C1D6C860006D909 /* SoonbwayTests.xctest */,
+				DDDD0B002C1D6C860006D909 /* SoonbwayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDDD0AE82C1D6C840006D909 /* Soonbway */ = {
+			isa = PBXGroup;
+			children = (
+				DDDD0AE92C1D6C840006D909 /* SoonbwayApp.swift */,
+				DDDD0AEB2C1D6C840006D909 /* ContentView.swift */,
+				DDDD0AED2C1D6C860006D909 /* Assets.xcassets */,
+				DDDD0AEF2C1D6C860006D909 /* Preview Content */,
+			);
+			path = Soonbway;
+			sourceTree = "<group>";
+		};
+		DDDD0AEF2C1D6C860006D909 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DDDD0AF02C1D6C860006D909 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DDDD0AF92C1D6C860006D909 /* SoonbwayTests */ = {
+			isa = PBXGroup;
+			children = (
+				DDDD0AFA2C1D6C860006D909 /* SoonbwayTests.swift */,
+			);
+			path = SoonbwayTests;
+			sourceTree = "<group>";
+		};
+		DDDD0B032C1D6C860006D909 /* SoonbwayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DDDD0B042C1D6C860006D909 /* SoonbwayUITests.swift */,
+				DDDD0B062C1D6C860006D909 /* SoonbwayUITestsLaunchTests.swift */,
+			);
+			path = SoonbwayUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDDD0AE52C1D6C840006D909 /* Soonbway */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDDD0B0A2C1D6C860006D909 /* Build configuration list for PBXNativeTarget "Soonbway" */;
+			buildPhases = (
+				DDDD0AE22C1D6C840006D909 /* Sources */,
+				DDDD0AE32C1D6C840006D909 /* Frameworks */,
+				DDDD0AE42C1D6C840006D909 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Soonbway;
+			productName = Soonbway;
+			productReference = DDDD0AE62C1D6C840006D909 /* Soonbway.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DDDD0AF52C1D6C860006D909 /* SoonbwayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDDD0B0D2C1D6C860006D909 /* Build configuration list for PBXNativeTarget "SoonbwayTests" */;
+			buildPhases = (
+				DDDD0AF22C1D6C860006D909 /* Sources */,
+				DDDD0AF32C1D6C860006D909 /* Frameworks */,
+				DDDD0AF42C1D6C860006D909 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDDD0AF82C1D6C860006D909 /* PBXTargetDependency */,
+			);
+			name = SoonbwayTests;
+			productName = SoonbwayTests;
+			productReference = DDDD0AF62C1D6C860006D909 /* SoonbwayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DDDD0AFF2C1D6C860006D909 /* SoonbwayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDDD0B102C1D6C860006D909 /* Build configuration list for PBXNativeTarget "SoonbwayUITests" */;
+			buildPhases = (
+				DDDD0AFC2C1D6C860006D909 /* Sources */,
+				DDDD0AFD2C1D6C860006D909 /* Frameworks */,
+				DDDD0AFE2C1D6C860006D909 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDDD0B022C1D6C860006D909 /* PBXTargetDependency */,
+			);
+			name = SoonbwayUITests;
+			productName = SoonbwayUITests;
+			productReference = DDDD0B002C1D6C860006D909 /* SoonbwayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDDD0ADE2C1D6C840006D909 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					DDDD0AE52C1D6C840006D909 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					DDDD0AF52C1D6C860006D909 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = DDDD0AE52C1D6C840006D909;
+					};
+					DDDD0AFF2C1D6C860006D909 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = DDDD0AE52C1D6C840006D909;
+					};
+				};
+			};
+			buildConfigurationList = DDDD0AE12C1D6C840006D909 /* Build configuration list for PBXProject "Soonbway" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDDD0ADD2C1D6C840006D909;
+			productRefGroup = DDDD0AE72C1D6C840006D909 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDDD0AE52C1D6C840006D909 /* Soonbway */,
+				DDDD0AF52C1D6C860006D909 /* SoonbwayTests */,
+				DDDD0AFF2C1D6C860006D909 /* SoonbwayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDDD0AE42C1D6C840006D909 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDDD0AF12C1D6C860006D909 /* Preview Assets.xcassets in Resources */,
+				DDDD0AEE2C1D6C860006D909 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDDD0AF42C1D6C860006D909 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDDD0AFE2C1D6C860006D909 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDDD0AE22C1D6C840006D909 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDDD0AEC2C1D6C840006D909 /* ContentView.swift in Sources */,
+				DDDD0AEA2C1D6C840006D909 /* SoonbwayApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDDD0AF22C1D6C860006D909 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDDD0AFB2C1D6C860006D909 /* SoonbwayTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDDD0AFC2C1D6C860006D909 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDDD0B072C1D6C860006D909 /* SoonbwayUITestsLaunchTests.swift in Sources */,
+				DDDD0B052C1D6C860006D909 /* SoonbwayUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DDDD0AF82C1D6C860006D909 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDDD0AE52C1D6C840006D909 /* Soonbway */;
+			targetProxy = DDDD0AF72C1D6C860006D909 /* PBXContainerItemProxy */;
+		};
+		DDDD0B022C1D6C860006D909 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDDD0AE52C1D6C840006D909 /* Soonbway */;
+			targetProxy = DDDD0B012C1D6C860006D909 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DDDD0B082C1D6C860006D909 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DDDD0B092C1D6C860006D909 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDDD0B0B2C1D6C860006D909 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Soonbway/Preview Content\"";
+				DEVELOPMENT_TEAM = ZFX2T346K6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hoho.Soonbway;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DDDD0B0C2C1D6C860006D909 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Soonbway/Preview Content\"";
+				DEVELOPMENT_TEAM = ZFX2T346K6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hoho.Soonbway;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DDDD0B0E2C1D6C860006D909 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZFX2T346K6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hoho.SoonbwayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Soonbway.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Soonbway";
+			};
+			name = Debug;
+		};
+		DDDD0B0F2C1D6C860006D909 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZFX2T346K6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hoho.SoonbwayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Soonbway.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Soonbway";
+			};
+			name = Release;
+		};
+		DDDD0B112C1D6C860006D909 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZFX2T346K6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hoho.SoonbwayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Soonbway;
+			};
+			name = Debug;
+		};
+		DDDD0B122C1D6C860006D909 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZFX2T346K6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hoho.SoonbwayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Soonbway;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDDD0AE12C1D6C840006D909 /* Build configuration list for PBXProject "Soonbway" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDDD0B082C1D6C860006D909 /* Debug */,
+				DDDD0B092C1D6C860006D909 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDDD0B0A2C1D6C860006D909 /* Build configuration list for PBXNativeTarget "Soonbway" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDDD0B0B2C1D6C860006D909 /* Debug */,
+				DDDD0B0C2C1D6C860006D909 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDDD0B0D2C1D6C860006D909 /* Build configuration list for PBXNativeTarget "SoonbwayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDDD0B0E2C1D6C860006D909 /* Debug */,
+				DDDD0B0F2C1D6C860006D909 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDDD0B102C1D6C860006D909 /* Build configuration list for PBXNativeTarget "SoonbwayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDDD0B112C1D6C860006D909 /* Debug */,
+				DDDD0B122C1D6C860006D909 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDDD0ADE2C1D6C840006D909 /* Project object */;
+}
