@@ -20,7 +20,7 @@ struct HomeView : View {
     @State private var buttonBackgroundColor: Color = .blue
     @State private var selectedSegment = 0
     
-    var test = SubwayViewModel()
+    var subwayViewModel = SubwayViewModel()
     
     /// For Animation
     @Namespace private var animation
@@ -35,9 +35,9 @@ struct HomeView : View {
                         Section {
                             /// Date Filter Button
                             Button(action: {
-                                showFilterView = true
+                                showFilterView = false
                             }, label: {
-                                Text("\(format(date: startDate, format: "dd - MMM yy")) to \(format(date: endDate, format: "dd - MMM yy"))")
+                                Text("\(format(date: startDate, format: "dd - MMM yy"))")
                                     .font(.caption2)
                                     .foregroundStyle(.gray)
                             })
@@ -45,28 +45,23 @@ struct HomeView : View {
                             
                             
                             /// Card View
-                            CardView()
+                            CardView(viewModel: subwayViewModel)
                             
                             
                             /// custom Segmented Control
 //                            CustomSegmentedControl()
                             CustomSegmentedControl(selectedSegment: $selectedSegment)
                             
-//                            ForEach(sampleTransactions.filter({$0.category == selectedCategory.rawValue})) { transaction in
-//
-////                                TransactionCardView(transaction: transaction)
-//
-//                            }
                             
                             if selectedSegment == 0 {
                                 // 출발 (상행)
-                                ForEach(test.entireData.filter { $0.updnLine == "상행" }, id: \.currentlocation) { arrival in
-                                    SubwayCardView(test: arrival)
+                                ForEach(subwayViewModel.entireData.filter { $0.updnLine == "상행" }, id: \.currentlocation) { arrival in
+                                    SubwayCardView(subwayData: arrival)
                                 }
                             } else {
                                 // 도착 (하행)
-                                ForEach(test.entireData.filter { $0.updnLine == "하행" }, id: \.currentlocation) { arrival in
-                                    SubwayCardView(test: arrival)
+                                ForEach(subwayViewModel.entireData.filter { $0.updnLine == "하행" }, id: \.currentlocation) { arrival in
+                                    SubwayCardView(subwayData: arrival)
                                 }
                             }
                             
@@ -99,7 +94,7 @@ struct HomeView : View {
             
         }
         .onAppear {
-            test.getArrivalFirstData()
+            subwayViewModel.getArrivalFirstData()
         }
     }
     
@@ -135,7 +130,6 @@ struct HomeView : View {
                 buttonBackgroundColor = isActive ? .gray : .blue
                 isActive.toggle()
                 
-                print(isActive)
                 
                 DispatchQueue.main.asyncAfter(deadline: .now()+10) {
                     isActive = true
@@ -176,32 +170,6 @@ struct HomeView : View {
         
     }
     
-//    @ViewBuilder
-//    func CustomSegmentedControl() -> some View {
-//        HStack(spacing: 0) {
-//            ForEach(Category.allCases,id:\.rawValue) { category in
-//                Text(category.rawValue)
-//                    .hSpacing()
-//                    .padding(.vertical,10)
-//                    .background {
-//                        if category == selectedCategory {
-//                            Capsule()
-//                                .fill(.background)
-//                                .matchedGeometryEffect(id: "ACTIVETAB", in: animation)
-//                        }
-//                    }
-//                    .contentShape(.capsule)
-//                    .onTapGesture {
-//                        withAnimation(.snappy) {
-//                            selectedCategory = category
-//                        }
-//                    }
-//            }
-//        }
-//        .background(.gray.opacity(0.15),in: .capsule)
-//        .padding(.top,5)
-//
-//    }
     
     @ViewBuilder
     func CustomSegmentedControl(selectedSegment: Binding<Int>) -> some View {

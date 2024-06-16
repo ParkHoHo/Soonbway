@@ -9,13 +9,13 @@ import SwiftUI
 
 struct SubwayCardView: View {
     @StateObject private var viewModel = SubwayViewModel()
-    var test : SubwayResponse.SubwayArrival
+    var subwayData : SubwayResponse.SubwayArrival
     
     
     var body: some View {
         
         HStack(spacing: 12){
-            Text("\(test.currentlocation.prefix(1))")
+            Text("\(subwayData.currentlocation.prefix(1))")
                 .font(.title)
                 .fontWeight(.semibold)
                 .foregroundStyle(.white)
@@ -23,10 +23,10 @@ struct SubwayCardView: View {
                 .background(.brown.gradient,in: .circle)
             
             VStack(alignment: .leading,spacing: 4) {
-                Text("\(test.currentlocation)")
+                Text("\(subwayData.currentlocation)")
                     .foregroundStyle(Color.primary)
                 
-                if let remainSubway = extractNumber(from: test.remain) {
+                if let remainSubway = extractNumber(from: subwayData.remain) {
                     Text("\(remainSubway)개역 전")
                         .font(.caption)
                         .foregroundStyle(Color.primary.secondary)
@@ -36,13 +36,7 @@ struct SubwayCardView: View {
                         .foregroundStyle(Color.primary.secondary)
                 }
                 
-//                let status = test.arvlCd == "1" ? "운행중" : test.arvlCd == "99" ? "도착" : "기타"
-//
-//                Text("\(status)")
-//                    .font(.caption)
-//                    .foregroundStyle(Color.primary.secondary)
-                
-                Text("\(test.updnLine)")
+                Text("\(subwayData.updnLine)")
                     .font(.caption)
                     .foregroundStyle(Color.primary.secondary)
             }
@@ -51,14 +45,11 @@ struct SubwayCardView: View {
             
 //            Text(currencyString(1000.0))
 //                .fontWeight(.semibold)
-            let status = test.arvlCd == "1" ? "운행중" : test.arvlCd == "99" ? "도착" : "기타"
+            let status = subwayData.arvlCd == "1" ? "운행중" : subwayData.arvlCd == "99" ? "도착" : "기타"
             
             Text("\(status)")
                 .fontWeight(.semibold)
                 .foregroundStyle(Color.primary.secondary)
-        }
-        .onAppear {
-            viewModel.getArrivalFirstData()
         }
         .padding(.horizontal,15)
         .padding(.vertical,10)
@@ -81,6 +72,6 @@ struct SubwayCardView: View {
 }
 
 #Preview {
-    SubwayCardView(test: sampleSubway[0])
+    SubwayCardView(subwayData: sampleSubway[0])
 }
 

@@ -11,7 +11,7 @@ import SwiftUI
 enum Tab : String, CaseIterable {
     case home = "Home"
     case map = "Map"
-    case favorites = "Favorites"
+    case more = "More"
     case profile = "Profile"
 //    case logout = "Logout"
     
@@ -19,7 +19,7 @@ enum Tab : String, CaseIterable {
         switch self {
         case .home : return "house.fill"
         case .map : return "map"
-        case .favorites : return "heart.fill"
+        case .more : return "heart.fill"
         case .profile : return "person.crop.circle"
 //        case .logout : return "rectangle.portrait.and.arrow.forward.fill"
         }
@@ -34,8 +34,8 @@ enum Tab : String, CaseIterable {
         case .map:
             Image(systemName: "map")
             Text(self.rawValue)
-        case .favorites:
-            Image(systemName: "heart.fill")
+        case .more:
+            Image(systemName: "figure.run")
             Text(self.rawValue)
         case .profile:
             Image(systemName: "person.crop.circle")

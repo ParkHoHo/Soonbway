@@ -65,8 +65,8 @@ struct Home_SideBarView: View {
                 activeTab = .map
             })
             
-            SideBarButton(.favorites,onTap: {
-                activeTab = .favorites
+            SideBarButton(.more,onTap: {
+                activeTab = .more
             })
             
            

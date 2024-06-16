@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct SubwayResponse: Decodable {
+    
+    // get realtimeArrivalList Array
     var realtimeArrivalList: [SubwayArrival]
     
     enum CodingKeys: String, CodingKey {

@@ -11,6 +11,7 @@ class SubwayViewModel : ObservableObject {
     @Published var currentLocation : [String] = []
     @Published var remain : [String] = []
     @Published var entireData : [SubwayResponse.SubwayArrival] = []
+
     
         
         // data form modify
@@ -19,7 +20,6 @@ class SubwayViewModel : ObservableObject {
                 switch data {
                 case .success(let arrivals) :
                     self.entireData = arrivals
-                    print(self.entireData)
                     
                     
                     if let firstArrival = arrivals.first {

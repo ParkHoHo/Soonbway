@@ -9,11 +9,8 @@ import SwiftUI
 
 struct CardView: View {
     
-    @StateObject private var viewModel = SubwayViewModel()
+    @StateObject var viewModel = SubwayViewModel()
     
-    
-    
-
     
     var body: some View {
         
@@ -29,7 +26,7 @@ struct CardView: View {
                                         
                     Image(systemName: "tram")
                         .font(.title3)
-                        /*.foregroundColor(expense > income ? .red : .green )*/
+                       
                 }
                 .padding(.bottom,25)
                 
@@ -54,8 +51,6 @@ struct CardView: View {
                                     .foregroundStyle(.gray)
                                 
                                 
-                               
-                                
                                 let upSubway = viewModel.entireData.filter { $0.updnLine == "상행" }
                                 let downSubway = viewModel.entireData.filter { $0.updnLine == "하행" }
                                 
@@ -63,6 +58,7 @@ struct CardView: View {
                                     .font(.callout)
                                     .fontWeight(.semibold)
                                     .foregroundStyle(.primary)
+                                
                                 
                                 
                             }
@@ -73,16 +69,13 @@ struct CardView: View {
                             
                         }
                     }
-                    
-                    .onAppear {
-                        viewModel.getArrivalFirstData()
-                    }
                 }
             }
             .padding([.horizontal,.bottom],25)
             .padding(.top,15)
         }
     }
+    
     
     
 }

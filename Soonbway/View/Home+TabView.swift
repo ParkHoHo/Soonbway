@@ -22,9 +22,9 @@ struct Home_TabView: View {
                 .tag(Tab.map)
                 .tabItem { Tab.map.tabContent}
             
-            SettingView()
-                .tag(Tab.favorites)
-                .tabItem { Tab.favorites.tabContent }
+            SoonBusView()
+                .tag(Tab.more)
+                .tabItem { Tab.more.tabContent }
             
             SettingView()
                 .tag(Tab.profile)
