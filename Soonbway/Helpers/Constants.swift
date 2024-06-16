@@ -8,4 +8,4 @@
 import SwiftUI
 
 var appTint : Color = .blue
-var key = secret 
+var key = secret

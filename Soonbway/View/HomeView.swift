@@ -34,18 +34,21 @@ struct HomeView : View {
                     LazyVStack(spacing:10,pinnedViews: [.sectionHeaders]) {
                         Section {
                             /// Date Filter Button
-                            Button(action: {
-                                showFilterView = false
-                            }, label: {
-                                Text("\(format(date: startDate, format: "dd - MMM yy"))")
-                                    .font(.caption2)
-                                    .foregroundStyle(.gray)
-                            })
-                            .hSpacing(.leading)
+//                            Button(action: {
+//                                showFilterView = false
+//                            }, label: {
+//
+//                            })
+                            
+                            Text("\(format(date: .now, format: "dd - MMM yy"))")
+                                .font(.caption2)
+                                .foregroundStyle(.gray)
+                                .hSpacing(.leading)
                             
                             
                             /// Card View
                             CardView(viewModel: subwayViewModel)
+                            
                             
                             
                             /// custom Segmented Control
@@ -77,20 +80,20 @@ struct HomeView : View {
                 .blur(radius: showFilterView ? 8 : 0)
                 .disabled(showFilterView)
             }
-            .overlay {
-                if showFilterView {
-                    DateFilterView(start: startDate, end: endDate, onSubmit: { start, end in
-                        startDate = start
-                        endDate = end
-                        showFilterView = false
-                    }, onClose: {
-                        showFilterView = false
-                    })
-                        .transition(.move(edge: .leading))
-                }
-                
-            }
-            .animation(.snappy, value: showFilterView)
+//            .overlay {
+//                if showFilterView {
+//                    DateFilterView(start: startDate, end: endDate, onSubmit: { start, end in
+//                        startDate = start
+//                        endDate = end
+//                        showFilterView = false
+//                    }, onClose: {
+//                        showFilterView = false
+//                    })
+//                        .transition(.move(edge: .leading))
+//                }
+//                
+//            }
+//            .animation(.snappy, value: showFilterView)
             
         }
         .onAppear {
@@ -129,6 +132,7 @@ struct HomeView : View {
                 // Button Action
                 buttonBackgroundColor = isActive ? .gray : .blue
                 isActive.toggle()
+                
                 
                 
                 DispatchQueue.main.asyncAfter(deadline: .now()+10) {

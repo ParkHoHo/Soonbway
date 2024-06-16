@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct SubwayCardView: View {
-    @StateObject private var viewModel = SubwayViewModel()
+    @StateObject var viewModel = SubwayViewModel()
     var subwayData : SubwayResponse.SubwayArrival
     
     
